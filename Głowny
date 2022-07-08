@@ -13,7 +13,7 @@ namespace Gra
             List<Hero> heros = new List<Hero>();
             heros.Add(new Wizard("Wizard",550, Colors.yellow ));
             heros.Add(new Knight("Knight", 630, Colors.green));
-            heros.Add(new Policja("Policja", 640, Colors.blue));
+            heros.Add(new Police("Police", 640, Colors.blue)
             heros.Add(new Thief("Thief", 650, Colors.red));
 
             Hero player1;
